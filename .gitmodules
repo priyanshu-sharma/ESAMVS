@@ -1,3 +1,6 @@
 [submodule "src/Track-Anything"]
 	path = src/Track-Anything
 	url = https://github.com/priyanshu-sharma/Track-Anything.git
+[submodule "src/XMem"]
+	path = src/XMem
+	url = https://github.com/priyanshu-sharma/XMem.git
