@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     'corsheaders',
     'django_extensions',
+    # Added APIs
+    'model_engine',
 ]
 
 REST_FRAMEWORK = {'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema'}
