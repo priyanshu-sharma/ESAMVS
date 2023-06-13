@@ -15,6 +15,6 @@ exclude = '''
   | dist
   | ve
   | venv
-  | src\
+  | src\esam_api\model_engine\migrations\
 )/
 '''
