@@ -41,3 +41,4 @@ numpy
 PyQt5
 Cython
 scipy
+wandb
