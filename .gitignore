@@ -6,6 +6,7 @@ __pycache__/
 *$py.class
 src/data_domain/evaluation/
 src/data_domain/training/
+src/data_domain/validation/
 # C extensions
 *.so
 
