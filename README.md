@@ -1,7 +1,15 @@
 # ESAMVS
-ESAMVS is official project Repository for EE243
+ESAMVS is official project Repository for EE243.
 
-# Evaluation Dataset
+Priyanshu Sharma
+862395994
+
+Extending SAM Models for Video Objects Segmentation & Tracking
+
+
+# Evaluation Dataset 
+
+## UVO Sparse and Dense
 
 UVO v1.0 - https://sites.google.com/view/unidentified-video-object/dataset?authuser=0
 
@@ -10,6 +18,23 @@ To download the evaluation dataset
 ```
 gdown https://drive.google.com/drive/folders/1fOhEdHqrp_6D_tBsrR9hazDLYV2Sw1XC -O . --folder
 ```
+
+## MOT 15
+
+```
+https://motchallenge.net/data/MOT15/
+```
+
+# Launch the app
+
+```
+cd src/Track-Anything/
+python app.py --device cuda:0
+```
+
+## Evaluation Results
+
+One can view my results from Evaluation.ipynb file. Anyone can produce their own result after brief training.
 
 # Training Dataset
 
@@ -108,3 +133,8 @@ python eval.py --output ../data_domain/validation/stage_two/y18_ms/720p_flip --m
 ```
 python merge_multi_scale.py --dataset Y --list ../data_domain/validation/stage_two/y18_ms/720p ../data_domain/validation/stage_two/y18_ms/720p_flip --output ../data_domain/validation/stage_two/y18_ms/y18_ms_merged
 ```
+
+## Training And Evaluation Results and Logs
+
+Training Results + Logs - https://drive.google.com/drive/folders/1WVm7_k5kucvvrKB-kXVSGfoZzQ-qlzIk?usp=sharing
+Evaluation Results + Logs - https://drive.google.com/drive/folders/1mAlBCem1OfiP5XjC9_qEcdaIzM2EglvV?usp=sharing 
